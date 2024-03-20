@@ -23,9 +23,6 @@ type ApiResponse = {
 
 
 
-
-
-
 const Dynamic: NextPage = (props:{
 
     serverSideData?: ApiResponse
