@@ -2,8 +2,10 @@
 
 import { NextPage } from "next";
 import Head from "next/head";
+import { useState } from "react";
 
 const Products: NextPage = () => {
+
   return (
     <>
       <Head>
@@ -15,6 +17,7 @@ const Products: NextPage = () => {
       <h1>
         Nossos Produtos
       </h1>
+      
     </>
   )
 }
