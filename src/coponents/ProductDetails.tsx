@@ -12,6 +12,8 @@ type ProductDetailsProps = {
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
   const [toastIsOpen, setToastIsOpen] = useState(false)
+  
+
 
   return (
     <Row>
