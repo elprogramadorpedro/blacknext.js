@@ -1,3 +1,37 @@
+# BlackNext 🛒
+
+## Descrição
+A plataforma de e-commerce BlackNext foi desenvolvida com o framework React Next.js, com o objetivo de proporcionar uma experiência eficiente e moderna para compras online. Com o Next.js, a renderização do lado servidor é simplificada, resultando em tempos de carregamento mais rápidos e uma experiência do usuário melhor. A estrutura do Next.js também permite a pré-renderização de páginas, o que melhora a indexação nos mecanismos de busca e otimiza para SEO. Experimente uma forma diferente de fazer compras online com o BlackNext!
+
+## Tecnologias Utilizadas
+- Next.js
+- React
+- Bootstrap
+- TypeScript
+
+## Instruções de Instalação e Uso
+1. Clone este repositório.
+2. Navegue até o diretório do projeto.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm run dev` para iniciar a aplicação em modo de desenvolvimento.
+5. Acesse a aplicação através do seu navegador web.
+
+## Contribuições
+Contribuições são bem-vindas. Se deseja contribuir para o BlackNext, siga estes passos:
+
+1. Faça um fork do projeto.
+2. Crie sua própria branch de funcionalidade (`git checkout -b feature/AmazingFeature`).
+3. Faça suas alterações.
+4. Faça um commit das suas alterações (`git commit -m 'Adiciona uma funcionalidade incrível'`).
+5. Faça um push para sua branch (`git push origin feature/AmazingFeature`).
+6. Abra uma solicitação de pull request.
+
+## Contato
+Para qualquer dúvida ou comentário, sinta-se à vontade para me contatar via e-mail.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
