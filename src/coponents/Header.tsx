@@ -16,8 +16,13 @@ const Header = () => {
           </a>
         </Link>
         <Link href="/card" passHref legacyBehavior>
-          <a className="nav-link">
+          <a className="nav-link me-2">
             Carrinho
+          </a>
+        </Link>
+        <Link href="/login" passHref legacyBehavior>
+          <a className="nav-link">
+            Login
           </a>
         </Link>
       </Nav>
