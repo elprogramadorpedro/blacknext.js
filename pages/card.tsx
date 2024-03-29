@@ -1,5 +1,5 @@
 // pages/cart.tsx
-
+import Link from "next/link";
 import { NextPage } from "next"
 import Head from "next/head"
 import { Container } from "reactstrap"
@@ -25,6 +25,17 @@ const Cart: NextPage = () => {
           </h1>
           <CartTable/>
           <CartTotal/>
+
+<div className="row">
+  <div className="d-flex justify-content-end pt-3">
+<Link href="/login " passHref legacyBehavior >
+          <button type="button" className="btn btn-primary">Pagar</button>
+          </Link>
+
+  </div>
+          
+ </div>         
+          
         </Container>
       </main>
     </>

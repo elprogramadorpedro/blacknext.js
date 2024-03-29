@@ -6,11 +6,11 @@ import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reac
 import React from "react";
 import Header from "@/coponents/Header";
 
-const Login: NextPage = () => {
+const Repeat: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Login</title>
+        <title>Repeat Password</title>
         <meta name="description" content="Página de inicio de sesión" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,35 +26,27 @@ const Login: NextPage = () => {
             <Col md="6">
               <div className="login-container">
                 <div className="inner-container">
-                  <h2>Iniciar sessão</h2>
+                  <h2>Recuperar senha</h2>
                   <Form>
                     <FormGroup>
-                      <Label for="email">Email</Label>
-                      <Input type="email" name="email" id="email" placeholder="Coloque seu Email" />
+                      <Label for="password">Senha</Label>
+                      <Input type="email" name="email" id="email" placeholder="Coloque sua senha" />
                     </FormGroup>
                     <FormGroup>
-                      <Label for="password">Senha</Label>
-                      <Input type="password" name="password" id="password" placeholder="Coloque sua senha" />
+                      <Label for="password">Repetir Senha</Label>
+                      <Input type="password" name="password" id="password" placeholder="Repeta a senha" />
                     </FormGroup>
                     <Button color="primary" block>Entrar</Button>
                   </Form>
                 </div>
-                <Link href="/repeat" passHref legacyBehavior>
-                 <p className="recover-password regis-hover">Esqueceu sua senha?</p>
-                </Link>
-               
+              
               </div>
             </Col>
           </Row>
 
 <div className="d-flex justify-content-center  mt-5">
 
- <Row>  
-            <Link href="/register" passHref legacyBehavior >
-            <h5 className="navbar-brand regis-hover"> Cadastrar</h5>
-            </Link>
-          </Row>
-  
+ 
 </div>
          
         </Container>
@@ -90,4 +82,4 @@ const Login: NextPage = () => {
   );
 };
 
-export default Login;
+export default Repeat;
